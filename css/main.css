@@ -1,0 +1,71 @@
+body {
+  background: #24353f;
+  font-family: "Titillium Web", sans-serif;
+}
+.all,
+.all2 {
+  width: 54%;
+  margin: auto;
+  box-shadow: -5px 2px 54px -9px rgb(0 0 0);
+}
+input {
+  background-color: transparent !important;
+  border-radius: 4px !important;
+  color: #fff !important;
+}
+
+.btn {
+  border-radius: 4px !important;
+}
+h1 {   
+  text-align: center;
+  color: #17a2b8;
+  font-size: 40px;
+}
+.ptext{
+  text-align: center;
+}
+.ptext a {
+  text-decoration: none;
+  transition: all 0.3s;
+}
+.ptext a:hover {
+  text-decoration: underline;
+}
+
+.navbar {
+  padding-top: 10px;
+  height: 70px;
+  display: flex;
+  justify-content: space-between;
+  box-shadow: -5px 2px 54px -9px rgb(0 0 0);
+ 
+}
+.btnn {
+ margin-right: 80px;
+  padding-bottom: 10px;
+}
+.btnn button {
+  width: 70px;
+  height: 45px;
+  background-color: transparent;
+  border-color: #ffc107;
+  color: white;
+  border-radius: 7px;
+}
+.btnn button:hover {
+  background-color: #ffc107;
+}
+.caption {
+  height: 150px;
+  width: 55%;
+  margin: auto;
+  margin-top: 200px;
+  background-color: #24353f;
+  box-shadow: -5px 2px 54px -9px rgb(0 0 0);
+  text-align: center;
+}
+.caption h1 {
+  padding-top: 50px;
+  font-size: 40px;
+}

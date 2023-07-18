@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/main.css" />
+  </head>
+  <body>
+    <div class="all2 mt-5 p-5">
+      <h1>Smart Login System</h1>
+      <input
+        type="text"
+        class="form-control my-3"
+        placeholder="Enter your name"
+        id="yourname"
+      />
+      <input
+        type="email"
+        class="form-control my-3"
+        placeholder="Enter your email"
+        id="youremail"
+      />
+      <input
+        type="password"
+        class="form-control mb-2"
+        placeholder="Enter  password"
+        id="yourpassword"
+      />
+      <div class="w-100 text-center pt-2 text-success d-none" id="Success">
+        Success
+      </div>
+      <div class="w-100 text-center pt-2 text-danger d-none" id="notSuccess">
+        you already signed before
+      </div>
+      <button class="btn btn-outline-info w-100 mt-4 mb-3" disabled id="SignUp">
+        Sign Up
+      </button>
+      <p class="text-white pb text-center">
+        You have an account? <a class="text-white" href="index.html">Sign in</a>
+      </p>
+    </div>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>

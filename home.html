@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/main.css" />
+    <!-- <title>Login</title> -->
+  </head>
+  <body>
+    <div class="home">
+       
+      <div class="navbar">
+         <div class="container">
+        <div class=" text-white ms-5 ps-5 fs-5">
+          SMART LOGIN
+        </div>
+       
+
+        <div class="btnn">
+           <a href="index.html"><button>Logout</button></a>
+        </div>
+      </div>
+       </div>
+      <div class="caption">
+        <h1 id="accountName"></h1>
+      </div>
+    </div>
+
+    <script>
+      var accountName = document.getElementById("accountName");
+      accountName.innerHTML ="welcome "+ JSON.parse(localStorage.getItem("loggedName"));
+    </script>
+  </body>
+</html>
